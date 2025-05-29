@@ -10,9 +10,6 @@ The Chula Spoofed Speech (CSS) dataset is a large-scale Thai spoofed speech data
 
 This repository includes:
 - Sample data
-- Dataset metadata
-
-
 
 ---
 
@@ -20,8 +17,6 @@ This repository includes:
 Due to agreements with the voice actors, this dataset is only available for research purposes on a case-by-case basis. We provide:
 
 - 📁 Sample Data (available in this repository under data_samples/)
-
-- 📄 Metadata and Protocols (see dataset_info/)
 
 If you would like full access to the complete CSS dataset, please contact the author directly with a brief description of your research purpose.
 
