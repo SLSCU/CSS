@@ -17,7 +17,6 @@ Due to agreements with the voice actors, this dataset is only available for rese
 - 📄 Metadata and Protocols (see dataset_info/)
 
 If you would like full access to the complete CSS dataset, please contact the author directly with a brief description of your research purpose.
-
 📧 Contact: [ ekapol.c@chula.ac.th ]
 ---
 
