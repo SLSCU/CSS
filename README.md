@@ -1,2 +1,5 @@
-# CSS-Chula-Spoofed-Speech
-An official repository of CSS: Chula Spoofed Speech (CSS) dataset — a large-scale Thai spoofed speech dataset.
+# CSS - Chula Spoofed Speech (CSS) Dataset
+This repository contains the official resources for the paper:
+
+"Thai Speech Spoofing Detection Dataset with Variations in Speaking Styles"
+
