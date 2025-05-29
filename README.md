@@ -6,6 +6,14 @@ This repository contains the official resources for the paper:
 
 "Thai Speech Spoofing Detection Dataset with Variations in Speaking Styles"
 
+The Chula Spoofed Speech (CSS) dataset is a large-scale Thai spoofed speech dataset consisting of 1,332,120 utterances, including both bona fide and synthetic speech. Synthetic samples are generated using five high-quality TTS systems, with all utterances matched to the same text as the real recordings. The dataset covers a wide range of ages and speaking styles, making it suitable for research in anti-spoofing, and robust speech modeling.
+
+This repository includes:
+- Sample data
+- Dataset metadata
+
+
+
 ---
 
 ## 📂 Dataset Access
