@@ -23,7 +23,16 @@ If you would like full access to the complete CSS dataset, please contact the au
 
 ---
 
+## Bona fide
 
+A **`Bona fide`** directory contains the following file structure:
+
+```bash
+Bona fide
+├── audio
+│   ├── audio.zip
+└── audio.csv
+```
 
 ## Acknowledgement
 This research was jointly supported by the PMU-C grant (C05F660049) and Amity Accentix Co., Ltd.
