@@ -23,12 +23,19 @@ Inside the **`data_samples/`** folder, you will find two directories:
 data_samples/
 ├── Bona fide/
 │   ├── Casual/
+│   │   └── *.wav           # WAV files in casual speaking style
 │   ├── Excited/
+│   │   └── *.wav           # WAV files in excited speaking style
 │   └── Formal/
-└── Spoofed/
+│       └── *.wav           # WAV files in formal speaking style
+├── Spoofed/
     ├── Casual/
+    │   └── *.wav           # Spoofed WAV files in casual style
     ├── Excited/
+    │   └── *.wav           # Spoofed WAV files in excited style
     └── Formal/
+        └── *.wav           # Spoofed WAV files in formal style
+
 ```
 
 If you would like full access to the complete CSS dataset, please contact the author directly with a brief description of your research purpose.
