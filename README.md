@@ -30,11 +30,11 @@ data_samples/
 │       └── *.wav           # WAV files in formal speaking style
 ├── Spoofed/
     ├── Casual/
-    │   └── *.wav           # Spoofed WAV files in casual style
+    │   └── *.wav           # Spoofed WAV files in casual speaking style
     ├── Excited/
-    │   └── *.wav           # Spoofed WAV files in excited style
+    │   └── *.wav           # Spoofed WAV files in excited speaking style
     └── Formal/
-        └── *.wav           # Spoofed WAV files in formal style
+        └── *.wav           # Spoofed WAV files in formal speaking style
 
 ```
 
