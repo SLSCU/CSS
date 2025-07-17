@@ -172,11 +172,13 @@
                 <h2>Spoofed Speech</h2>
                     <p><strong>Generation:</strong> The synthetic samples were generated to match the bona-fide data, using the same speakers and the same text scripts.</p>
                     <p><strong>TTS Models:</strong> The spoofed data was created using <strong>five different high-quality text-to-speech (TTS) systems/combinations</strong>:</p>
-                    <p>1.) VITS (an End-to-End model)</p>
-                    <p>2.) FastPitch + HiFi-GAN</p>
-                    <p>3.) FastPitch + UnivNet</p>
-                    <p>4.) Tacotron 2 + HiFi-GAN</p>
-                    <p>5.) Tacotron 2 + UnivNet</p>
+                    <ol style="margin-top: 0; margin-bottom: 0; padding-left: 20px;">
+                      <li style="margin-bottom: 4px;">VITS (an End-to-End model)</li>
+                      <li style="margin-bottom: 4px;">FastPitch + HiFi-GAN</li>
+                      <li style="margin-bottom: 4px;">FastPitch + UnivNet</li>
+                      <li style="margin-bottom: 4px;">Tacotron 2 + HiFi-GAN</li>
+                      <li style="margin-bottom: 4px;">Tacotron 2 + UnivNet</li>
+                    </ol>
                     <p><strong>Volume:</strong> For each of the 5 TTS systems, 222,020 utterances were generated, resulting in a total of <strong>1,110,100 spoofed samples</strong>.</p>
             </div>
         </section>
@@ -187,6 +189,7 @@
             <table>
                 <thead>
                     <tr>
+                        <th></th>
                         <th>Speaker 001</th>
                         <th>Speaker 002</th>
                     </tr>
@@ -224,6 +227,94 @@
                         <td>Tacotron 2 + UnivNet</td>
                         <td><audio controls src="data_samples/Spoofed/Formal/Tacotron2_UnivNet_Formal_spk1_utt1.wav"></audio></td>
                         <td><audio controls src="data_samples/Spoofed/Formal/Tacotron2_UnivNet_Formal_spk2_utt1.wav"></audio></td>
+                    </tr>
+                </tbody>
+            </table>
+            <table>
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Speaker 003</th>
+                        <th>Speaker 004</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="style-row">
+                      <td colspan="5" style="text-align: center; font-weight: bold;">Casual Style</td>
+                    </tr>
+                    <tr>
+                        <td>Bona-fide</td>
+                        <td><audio controls src="data_samples/Bona fide/Formal/Casual_spk3_utt1.wav"></audio></td>
+                        <td><audio controls src="data_samples/Bona fide/Formal/Casual_spk4_utt1.wav"></audio></td>
+                    </tr>
+                    <tr>
+                        <td>VITS</td>
+                        <td><audio controls src="data_samples/Spoofed/Casual/VITS_Casual_spk3_utt1.wav"></audio></td>
+                        <td><audio controls src="data_samples/Spoofed/Casual/VITS_Casual_spk4_utt1.wav"></audio></td>
+                    </tr>
+                    <tr>
+                        <td>FastPitch + HiFi-GAN</td>
+                        <td><audio controls src="data_samples/Spoofed/Casual/FastPitch_HifiGAN_Casual_spk3_utt1.wav"></audio></td>
+                        <td><audio controls src="data_samples/Spoofed/Casual/FastPitch_HifiGAN_Casual_spk4_utt1.wav"></audio></td>
+                    </tr>
+                    <tr>
+                        <td>FastPitch + UnivNet</td>
+                        <td><audio controls src="data_samples/Spoofed/Casual/FastPitch_UnivNet_Casual_spk3_utt1.wav"></audio></td>
+                        <td><audio controls src="data_samples/Spoofed/Casual/FastPitch_UnivNet_Casual_spk4_utt1.wav"></audio></td>
+                    </tr>
+                    <tr>
+                        <td>Tacotron 2 + HiFi-GAN</td>
+                        <td><audio controls src="data_samples/Spoofed/Casual/Tacotron2_HifiGAN_Casual_spk3_utt1.wav"></audio></td>
+                        <td><audio controls src="data_samples/Spoofed/Casual/Tacotron2_HifiGAN_Casual_spk4_utt1.wav"></audio></td>
+                    </tr>
+                    <tr>
+                        <td>Tacotron 2 + UnivNet</td>
+                        <td><audio controls src="data_samples/Spoofed/Casual/Tacotron2_UnivNet_Casual_spk3_utt1.wav"></audio></td>
+                        <td><audio controls src="data_samples/Spoofed/Casual/Tacotron2_UnivNet_Casual_spk4_utt1.wav"></audio></td>
+                    </tr>
+                </tbody>
+            </table>
+            <table>
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Speaker 005</th>
+                        <th>Speaker 006</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="style-row">
+                      <td colspan="5" style="text-align: center; font-weight: bold;">Excited Style</td>
+                    </tr>
+                    <tr>
+                        <td>Bona-fide</td>
+                        <td><audio controls src="data_samples/Bona fide/Excited/Excited_spk5_utt1.wav"></audio></td>
+                        <td><audio controls src="data_samples/Bona fide/Excited/Excited_spk6_utt1.wav"></audio></td>
+                    </tr>
+                    <tr>
+                        <td>VITS</td>
+                        <td><audio controls src="data_samples/Spoofed/Excited/VITS_Excited_spk5_utt1.wav"></audio></td>
+                        <td><audio controls src="data_samples/Spoofed/Excited/VITS_Excited_spk6_utt1.wav"></audio></td>
+                    </tr>
+                    <tr>
+                        <td>FastPitch + HiFi-GAN</td>
+                        <td><audio controls src="data_samples/Spoofed/Excited/FastPitch_HifiGAN_Excited_spk5_utt1.wav"></audio></td>
+                        <td><audio controls src="data_samples/Spoofed/Excited/FastPitch_HifiGAN_Excited_spk6_utt1.wav"></audio></td>
+                    </tr>
+                    <tr>
+                        <td>FastPitch + UnivNet</td>
+                        <td><audio controls src="data_samples/Spoofed/Excited/FastPitch_UnivNet_Excited_spk5_utt1.wav"></audio></td>
+                        <td><audio controls src="data_samples/Spoofed/Excited/FastPitch_UnivNet_Excited_spk6_utt1.wav"></audio></td>
+                    </tr>
+                    <tr>
+                        <td>Tacotron 2 + HiFi-GAN</td>
+                        <td><audio controls src="data_samples/Spoofed/Excited/Tacotron2_HifiGAN_Excited_spk5_utt1.wav"></audio></td>
+                        <td><audio controls src="data_samples/Spoofed/Excited/Tacotron2_HifiGAN_Excited_spk6_utt1.wav"></audio></td>
+                    </tr>
+                    <tr>
+                        <td>Tacotron 2 + UnivNet</td>
+                        <td><audio controls src="data_samples/Spoofed/Excited/Tacotron2_UnivNet_Excited_spk5_utt1.wav"></audio></td>
+                        <td><audio controls src="data_samples/Spoofed/Excited/Tacotron2_UnivNet_Excited_spk6_utt1.wav"></audio></td>
                     </tr>
                 </tbody>
             </table>
