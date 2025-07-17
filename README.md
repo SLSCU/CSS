@@ -11,7 +11,7 @@ The Chula Spoofed Speech (CSS) dataset is a large-scale Thai spoofed speech data
 ---
 
 ## Demo
-👉 [Demo Page](https://slscu.github.io/CSS/) 🎧
+🎧 👉 [Demo Page (Audio Samples)](https://slscu.github.io/CSS/)
 
 ---
 
