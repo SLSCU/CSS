@@ -41,7 +41,7 @@
             margin-bottom: 2rem;
             font-size: 1.1rem;
         }
-        .authors, .emails, .affiliations {
+/*         .authors, .emails, .affiliations {
             font-size: 1.5rem;
             margin-bottom: 0.6rem;
         }
@@ -64,6 +64,38 @@
         }
         .dataset-link a:hover {
             text-decoration: underline;
+        } */
+        .paper-header .authors {
+            font-size: 1.1em;
+            color: #333;
+            margin-bottom: 10px;
+        }
+    
+        .paper-header .emails {
+            color: #555;
+            font-size: 0.9em;
+            margin-bottom: 15px;
+        }
+    
+        .paper-header .emails a {
+            color: #2962ff;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+    
+        .paper-header .emails a:hover {
+            color: #1a3399;
+            text-decoration: underline;
+        }
+    
+        .paper-header .affiliations {
+            color: #666;
+            font-size: 0.9em;
+            margin-top: 15px;
+        }
+    
+        .paper-header .affiliations p {
+            margin: 5px 0;
         }
         .links {
             display: flex;
@@ -194,12 +226,32 @@
 <body>
     <div class="container">
         <header>
-            <h1>Thai Speech Spoofing Detection Dataset with Variations in Speaking Styles</h1>
+<!--             <h1>Thai Speech Spoofing Detection Dataset with Variations in Speaking Styles</h1>
             <p class="subtitle">(This work has been accepted to Interspeech 2025)</p>
-            <p class="authors">Ticho Urai, Pachara Boonsarngsuk, Ekapol Chuangsuwanich</p>
-            <p class="emails">ticho.urai@gmail.com, pacharawinboon@gmail.com, ekapol.c@chula.ac.th</p>
-            <div class="affiliations"><p>Department of Computer Engineering, Faculty of Engineering</p>
+            <p class="authors" style="margin: 5px 0;">Ticho Urai, Pachara Boonsarngsuk, Ekapol Chuangsuwanich</p>
+            <p class="emails" style="margin: 5px 0;">ticho.urai@gmail.com, pacharawinboon@gmail.com, ekapol.c@chula.ac.th</p>
+            <div class="affiliations" style="margin: 5px 0;"><p>Department of Computer Engineering, Faculty of Engineering</p>
                                         <p>Chulalongkorn University, Thailand</p>
+            </div> -->
+            <h1>Thai Speech Spoofing Detection Dataset with Variations in Speaking Styles</h1>
+    
+            <p class="subtitle">(This work has been accepted to Interspeech 2025)</p>
+            
+            <p class="authors">
+                <a href="mailto:ticho.urai@gmail.com">Ticho Urai</a>, 
+                <a href="mailto:pacharawinboon@gmail.com">Pachara Boonsarngsuk</a>, 
+                <a href="mailto:ekapol.c@chula.ac.th">Ekapol Chuangsuwanich</a>
+            </p>
+            
+            <p class="emails">
+                <a href="mailto:ticho.urai@gmail.com">ticho.urai@gmail.com</a>, 
+                <a href="mailto:pacharawinboon@gmail.com">pacharawinboon@gmail.com</a>, 
+                <a href="mailto:ekapol.c@chula.ac.th">ekapol.c@chula.ac.th</a>
+            </p>
+            
+            <div class="affiliations">
+                <p>Department of Computer Engineering, Faculty of Engineering</p>
+                <p>Chulalongkorn University, Thailand</p>
             </div>
             <div class="links">
               <a href="https://github.com/SLSCU/CSS" class="link-button">
