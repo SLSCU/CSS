@@ -163,10 +163,10 @@
             We present the Chula Spoofed Speech (CSS) dataset, a Thai-language spoofing dataset that we created to support the development and evaluation of anti-spoofing systems. According to our research, the dataset contains a total of 1,332,120 utterances, amounting to approximately 1,620 hours of speech data. It includes both genuine (bona-fide) and synthetic (spoofed) speech samples.
             </p>
             <div>
-                <h2>Bona-fide Speech</h2>
-                <p><strong>Source:</strong> Recordings from <strong>20 professional voice actors</strong> (10 male and 10 female).</p>
-                <p><strong>Diversity:</strong> The speakers cover three age groups (8 adolescents, 9 working adults, 3 elderly) and three distinct speaking styles (formal, casual, and excited).</p>
-                <p><strong>Volume:</strong> This portion consists of <strong>222,020 utterances</strong>.</p>
+                <h2 style="margin-bottom: 10px;">Bona-fide Speech</h2>
+                <p style="margin: 5px 0;"><strong>Source:</strong> Recordings from <strong>20 professional voice actors</strong> (10 male and 10 female).</p>
+                <p style="margin: 5px 0;"><strong>Diversity:</strong> The speakers cover three age groups (8 adolescents, 9 working adults, 3 elderly) and three distinct speaking styles (formal, casual, and excited).</p>
+                <p style="margin: 5px 0;"><strong>Volume:</strong> This portion consists of <strong>222,020 utterances</strong>.</p>
             </div>
 <!--             <div>
                 <h2>Spoofed Speech</h2>
@@ -181,18 +181,30 @@
                     </ol>
                     <p><strong>Volume:</strong> For each of the 5 TTS systems, 222,020 utterances were generated, resulting in a total of <strong>1,110,100 spoofed samples</strong>.</p>
             </div> -->
-            <div style="text-align: left;">
-                <h2 style="margin-bottom: 10px;">Spoofed Speech</h2>
-                <p style="margin: 5px 0;"><strong>Generation:</strong> The synthetic samples were generated to match the bona-fide data, using the same speakers and the same text scripts.</p>
-                <p style="margin: 5px 0;"><strong>TTS Models:</strong> The spoofed data was created using <strong>five different high-quality text-to-speech (TTS) systems/combinations</strong>:</p>
-                <ol style="margin: 5px 0; padding-left: 20px;">
-                    <li style="margin-bottom: 4px;">VITS (an End-to-End model)</li>
-                    <li style="margin-bottom: 4px;">FastPitch + HiFi-GAN</li>
-                    <li style="margin-bottom: 4px;">FastPitch + UnivNet</li>
-                    <li style="margin-bottom: 4px;">Tacotron 2 + HiFi-GAN</li>
-                    <li style="margin-bottom: 4px;">Tacotron 2 + UnivNet</li>
-                </ol>
-                <p style="margin: 5px 0;"><strong>Volume:</strong> For each of the 5 TTS systems, 222,020 utterances were generated, resulting in a total of <strong>1,110,100 spoofed samples</strong>.</p>
+            <style>
+                .gray-background {
+                    background-color: #f5f5f5;  /* สีเทาอ่อน */
+                    padding: 20px;
+                    border-radius: 8px;
+                    margin: 10px 0;
+                }
+            </style>
+            
+            <div class="gray-background">
+<!--                 <div style="text-align: left;"> -->
+                <div>
+                    <h2 style="margin-bottom: 10px;">Spoofed Speech</h2>
+                    <p style="margin: 5px 0;"><strong>Generation:</strong> The synthetic samples were generated to match the bona-fide data, using the same speakers and the same text scripts.</p>
+                    <p style="margin: 5px 0;"><strong>TTS Models:</strong> The spoofed data was created using <strong>five different high-quality text-to-speech (TTS) systems/combinations</strong>:</p>
+                    <ol style="margin: 5px 0; padding-left: 20px;">
+                        <li style="margin-bottom: 4px;">VITS (an End-to-End model)</li>
+                        <li style="margin-bottom: 4px;">FastPitch + HiFi-GAN</li>
+                        <li style="margin-bottom: 4px;">FastPitch + UnivNet</li>
+                        <li style="margin-bottom: 4px;">Tacotron 2 + HiFi-GAN</li>
+                        <li style="margin-bottom: 4px;">Tacotron 2 + UnivNet</li>
+                    </ol>
+                    <p style="margin: 5px 0;"><strong>Volume:</strong> For each of the 5 TTS systems, 222,020 utterances were generated, resulting in a total of <strong>1,110,100 spoofed samples</strong>.</p>
+                </div>
             </div>
         </section>
 
