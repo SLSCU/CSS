@@ -164,27 +164,27 @@
             </p>
             <div>
                 <h2>Bona-fide Speech</h2>
-                <ul>
-                  <li><strong>Source:</strong> Recordings from <strong>20 professional voice actors</strong> (10 male and 10 female).</li>
-                  <li><strong>Diversity:</strong> The speakers cover three age groups (8 adolescents, 9 working adults, 3 elderly) and three distinct speaking styles (formal, casual, and excited).</li>
-                  <li><strong>Volume:</strong> This portion consists of <strong>222,020 utterances</strong>.</li>
-                </ul>
+<!--                 <ul> -->
+                <li><strong>Source:</strong> Recordings from <strong>20 professional voice actors</strong> (10 male and 10 female).</li>
+                <li><strong>Diversity:</strong> The speakers cover three age groups (8 adolescents, 9 working adults, 3 elderly) and three distinct speaking styles (formal, casual, and excited).</li>
+                <li><strong>Volume:</strong> This portion consists of <strong>222,020 utterances</strong>.</li>
+<!--                 </ul> -->
             </div>
             <div>
                 <h2>Spoofed Speech</h2>
-                <ul>
+<!--                 <ul> -->
                     <li><strong>Generation:</strong> The synthetic samples were generated to match the bona-fide data, using the same speakers and the same text scripts.</li>
                     <li><strong>TTS Models:</strong> The spoofed data was created using <strong>five different high-quality text-to-speech (TTS) systems/combinations</strong>:
-                        <ol>
-                            <li>VITS (an End-to-End model)</li>
-                            <li>FastPitch + HiFi-GAN</li>
-                            <li>FastPitch + UnivNet</li>
-                            <li>Tacotron 2 + HiFi-GAN</li>
-                            <li>Tacotron 2 + UnivNet</li>
-                        </ol>
-                    </li>
+<!--                         <ol> -->
+                    <li>VITS (an End-to-End model)</li>
+                    <li>FastPitch + HiFi-GAN</li>
+                    <li>FastPitch + UnivNet</li>
+                    <li>Tacotron 2 + HiFi-GAN</li>
+                    <li>Tacotron 2 + UnivNet</li>
+<!--                         </ol>
+                    </li> -->
                     <li><strong>Volume:</strong> For each of the 5 TTS systems, 222,020 utterances were generated, resulting in a total of <strong>1,110,100 spoofed samples</strong>.</li>
-                </ul>
+<!--                 </ul> -->
             </div>
         </section>
 
@@ -202,13 +202,12 @@
                 </thead>
                 <tbody>
                     <tr class="style-row">
-                        <td colspan="5">Formal Style</td>
+                        <th colspan="5">Formal Style</th>
                     </tr>
                     <tr>
                         <td>Bona-fide</td>
                         <td><audio controls src="data_samples/Bona fide/Formal/Formal_spk1_utt1.wav"></audio></td>
                         <td><audio controls src="data_samples/Bona fide/Formal/Formal_spk2_utt1.wav"></audio></td>
-<!--                         <td><audio controls src="data_samples/Bona fide/Excited/speaker0012_bona-fide_sad.wav"></audio></td> -->
                     </tr>
                     <tr>
                         <td>VITS</td>
