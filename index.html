@@ -41,7 +41,7 @@
             margin-bottom: 2rem;
             font-size: 1.1rem;
         }
-/*         .authors, .emails, .affiliations {
+        .authors, .emails, .affiliations {
             font-size: 1.5rem;
             margin-bottom: 0.6rem;
         }
@@ -64,8 +64,8 @@
         }
         .dataset-link a:hover {
             text-decoration: underline;
-        } */
-        .paper-header .authors {
+        }
+/*         .paper-header .authors {
             font-size: 1.1em;
             color: #333;
             margin-bottom: 10px;
@@ -96,15 +96,24 @@
     
         .paper-header .affiliations p {
             margin: 5px 0;
-        }
+        } */
         .links {
             display: flex;
             justify-content: center;
             gap: 20px;
             margin-top: 20px;
         }
+        .link-button .icon {
+          width: 24px;           /* adjust size as needed */
+          height: 24px;
+          border-radius: 50%;    /* make it circular */
+          background-color: white; /* optional: give it background */
+          padding: 4px;          /* optional: spacing inside circle */
+          margin-right: 8px;     /* space between icon and text */
+          fill: #333;            /* icon color */
+        }
     
-        .link-button {
+/*         .link-button {
             display: inline-flex;
             align-items: center;
             justify-content: center;
@@ -115,7 +124,7 @@
             border-radius: 25px;
             font-weight: bold;
             transition: background-color 0.3s ease;
-        }
+        } */
         .abstract {
             text-align: left;
             margin-top: 2.5rem;
@@ -226,14 +235,14 @@
 <body>
     <div class="container">
         <header>
-<!--             <h1>Thai Speech Spoofing Detection Dataset with Variations in Speaking Styles</h1>
+            <h1>Thai Speech Spoofing Detection Dataset with Variations in Speaking Styles</h1>
             <p class="subtitle">(This work has been accepted to Interspeech 2025)</p>
             <p class="authors" style="margin: 5px 0;">Ticho Urai, Pachara Boonsarngsuk, Ekapol Chuangsuwanich</p>
             <p class="emails" style="margin: 5px 0;">ticho.urai@gmail.com, pacharawinboon@gmail.com, ekapol.c@chula.ac.th</p>
             <div class="affiliations" style="margin: 5px 0;"><p>Department of Computer Engineering, Faculty of Engineering</p>
                                         <p>Chulalongkorn University, Thailand</p>
-            </div> -->
-            <h1>Thai Speech Spoofing Detection Dataset with Variations in Speaking Styles</h1>
+            </div>
+<!--             <h1>Thai Speech Spoofing Detection Dataset with Variations in Speaking Styles</h1>
     
             <p class="subtitle">(This work has been accepted to Interspeech 2025)</p>
             
@@ -252,13 +261,22 @@
             <div class="affiliations">
                 <p>Department of Computer Engineering, Faculty of Engineering</p>
                 <p>Chulalongkorn University, Thailand</p>
-            </div>
-            <div class="links">
+            </div> -->
+<!--             <div class="links">
               <a href="https://github.com/SLSCU/CSS" class="link-button">
                 <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" 
                      alt="GitHub logo" 
                      class="icon" 
                      style="width: 24px; height: 24px; margin-right: 8px;">
+                Github
+              </a>
+            </div> -->
+            <div class="links">
+              <a href="https://github.com/SLSCU/CSS" class="link-button">
+                <img 
+                  src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" 
+                  alt="GitHub logo" 
+                  class="icon">
                 Github
               </a>
             </div>
@@ -349,7 +367,7 @@
                 </thead>
                 <tbody>
                     <tr class="style-row">
-                      <td colspan="5" style="text-align: center; font-weight: bold;">Formal Style</td>
+                      <td colspan="5" style="text-align: center; font-weight: bold;">Formal Speaking Style</td>
                     </tr>
                     <tr>
                         <td>Bona-fide</td>
@@ -393,7 +411,7 @@
                 </thead>
                 <tbody>
                     <tr class="style-row">
-                      <td colspan="5" style="text-align: center; font-weight: bold;">Casual Style</td>
+                      <td colspan="5" style="text-align: center; font-weight: bold;">Casual Speaking Style</td>
                     </tr>
                     <tr>
                         <td>Bona-fide</td>
@@ -437,7 +455,7 @@
                 </thead>
                 <tbody>
                     <tr class="style-row">
-                      <td colspan="5" style="text-align: center; font-weight: bold;">Excited Style</td>
+                      <td colspan="5" style="text-align: center; font-weight: bold;">Excited Speaking Style</td>
                     </tr>
                     <tr>
                         <td>Bona-fide</td>
@@ -477,8 +495,9 @@
         <h2>Acknowledgements</h2>
         
         <p>This research was jointly supported by the PMU-C grant (C05F660049) and Amity Accentix Co., Ltd.</p>
+        <p>We would also like to express our sincere gratitude to all the voice contributors who generously dedicated their time and talent to make this project possible.</p>
         
-        <div class="voice-actors">
+<!--         <div class="voice-actors">
             <h3>Voice Contributors</h3>
             <p>We would like to express our sincere gratitude to all the voice actors who generously contributed their time and talent, making this project possible.</p>
             
@@ -503,7 +522,7 @@
             </ul>
             
             <p><em>We also thank those who chose to remain anonymous. Their contributions were essential to the success of this work.</em></p>
-        </div>
+        </div> -->
     </div>
 </body>
 </html>
