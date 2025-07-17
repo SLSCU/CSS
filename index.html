@@ -132,8 +132,8 @@
             <p class="subtitle">(This work is accepted to Interspeech 2025)</p>
             <p class="authors">Ticho Urai, Pachara Boonsarngsuk, Ekapol Chuangsuwanich</p>
             <p class="emails">ticho.urai@gmail.com, pacharawinboon@gmail.com, ekapol.c@chula.ac.th</p>
-            <div class="affiliations">Department of Computer Engineering, Faculty of Engineering 
-                Chulalongkorn University, Thailand
+            <div class="affiliations"><p>Department of Computer Engineering, Faculty of Engineering</p>
+                                        <p>Chulalongkorn University, Thailand</p>
             </div>
             <div class="abstract">
                 <p><b>Abstract:</b> We develop the Chula Spoofed Speech (CSS) dataset, a spoofing dataset for Thai, which contains 1,332,120 utterances of both bona fide and synthetic speech. Synthetic speech samples were generated using five distinct high-quality text-to-speech (TTS) systems, all based on the same utterances as the bona fide data. The data covers various age ranges and speak- ing styles. Strong baselines such as AASIST and RawNet2 are trained under different conditions to uncover aspects that affect the performance of the models. Besides unseen attacks, unseen speaking styles also have a big impact on performance, indicating a need for diversity in speaking styles in anti-spoofing datasets. Furthermore, we investigate the models in telephony scenarios against additional TTS systems. The results reveal that the models still face certain challenges in this context.</p>
@@ -141,7 +141,11 @@
         </header>
 
         <hr>
-
+        <!-- Image section -->
+        <div style="text-align: center; margin: 20px 0;">
+            <img src="images/CSS_dataset_construction.png" alt="Overview of the CSS Dataset creation" style="max-width: 100%; height: auto; border-radius: 8px;">
+        </div>
+        <!-- Dataset-details section -->
         <section class="dataset-details">
             <h2>Details of Chula Spoofed Speech (CSS) Dataset</h2>
             <p>
@@ -173,6 +177,7 @@
             </ul>
         </section>
 
+        <!-- Speech Samples section -->
         <section class="speech-samples">
             <h2>Speech Samples</h2>
             <table>
