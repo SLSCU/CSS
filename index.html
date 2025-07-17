@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Can Emotion Fool Anti-spoofing?</title>
+    <title>Thai Speech Spoofing Detection Dataset with Variations in Speaking Styles</title>
     <style>
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -128,18 +128,15 @@
 <body>
     <div class="container">
         <header>
-            <h1>Can Emotion Fool Anti-spoofing?</h1>
+            <h1>Thai Speech Spoofing Detection Dataset with Variations in Speaking Styles</h1>
             <p class="subtitle">(This work is accepted to Interspeech 2025)</p>
-            <p class="authors">Aurosweta Mahapatra<sup>1</sup>, Ismail Rasim Ulgen<sup>1</sup>, Abinay Reddy Naini<sup>2</sup>, Carlos Busso<sup>2</sup>, Berrak Sisman<sup>1,3</sup></p>
-            <p class="emails">amahapa2@jhu.edu, iulgen1@jhu.edu, anaini@andrew.cmu.edu, busso@cmu.edu, sisman@jhu.edu</p>
-            <div class="affiliations">
-                <sup>1</sup>Center for Language and Speech Processing, Johns Hopkins University, USA<br>
-                <sup>2</sup>Language Technologies Institute, Carnegie Mellon University, USA<br>
-                <sup>3</sup>Data Science and AI Institute (DSAI), Johns Hopkins University, USA
+            <p class="authors">Ticho Urai, Pachara Boonsarngsuk, Ekapol Chuangsuwanich</p>
+            <p class="emails">ticho.urai@gmail.com, pacharawinboon@gmail.com, ekapol.c@chula.ac.th</p>
+            <div class="affiliations">Department of Computer Engineering, Faculty of Engineering, Chulalongkorn University, Thailand
             </div>
             <p class="dataset-link"><b>Dataset Link:</b> <a href="https://zenodo.org/records/15557842" target="_blank">https://zenodo.org/records/15557842</a></p>
             <div class="abstract">
-                <p><b>Abstract:</b> Traditional anti-spoofing focuses on models and datasets built on synthetic speech with mostly neutral state, neglecting diverse emotional variations. As a result, their robustness against high-quality, emotionally expressive synthetic speech is uncertain. We address this by introducing EmoSpoof-TTS, a corpus of emotional text-to-speech samples. Our analysis shows existing anti-spoofing models struggle with emotional synthetic speech, exposing risks of emotion-targeted attacks. Even trained on emotional data, the models underperform due to limited focus on emotional aspects and show performance disparities across emotions. This highlights the need for an emotion-focused anti-spoofing paradigm in both dataset and methodology. We propose GEM, a gated ensemble of emotion-specialized models with a speech emotion recognition gating network. GEM performs effectively across all emotions and neutral state, improving defenses against spoofing attacks. We release the EmoSpoof-TTS Dataset.</p>
+                <p><b>Abstract:</b> We develop the Chula Spoofed Speech (CSS) dataset, a spoofing dataset for Thai, which contains 1,332,120 utterances of both bona fide and synthetic speech. Synthetic speech sam- ples were generated using five distinct high-quality text-to- speech (TTS) systems, all based on the same utterances as the bona fide data. The data covers various age ranges and speak- ing styles. Strong baselines such as AASIST and RawNet2 are trained under different conditions to uncover aspects that affect the performance of the models. Besides unseen attacks, unseen speaking styles also have a big impact on performance, indi- cating a need for diversity in speaking styles in anti-spoofing datasets. Furthermore, we investigate the models in telephony scenarios against additional TTS systems. The results reveal that the models still face certain challenges in this context.</p>
             </div>
         </header>
 
