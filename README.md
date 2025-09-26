@@ -58,7 +58,7 @@ We would also like to express our sincere gratitude to all the voice actors who 
 
 ---
 
-## 📚 Citation
+## Citation
 
 If you use this dataset, please cite:
 
@@ -72,6 +72,6 @@ If you use this dataset, please cite:
   doi       = {10.21437/Interspeech.2025-1895},
   issn      = {2958-1796},
 }
-
+```
 <!-- markdownlint-enable -->
 
