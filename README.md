@@ -15,6 +15,35 @@ The Chula Spoofed Speech (CSS) dataset is a large-scale Thai spoofed speech data
 
 ---
 
+## 📊 Dataset Construction
+
+![CSS Dataset Construction](images/CSS_dataset_construction.png)
+
+### 🔹 Bona Fide Data
+- **20 professional voice actors** (10 male, 10 female)  
+- **Age groups**: 8 adolescents, 9 working adults, 3 elderly  
+- **Speaking styles**: 6 formal, 10 casual, 4 excited  
+- **Scripts**: 11,101 shared scripts, recorded by all speakers  
+- **Total**: **222,020 utterances (~270 hours)** at 44.1 kHz  
+
+### 🔹 Spoofed Data
+- Generated using the same **20 speakers** and **same scripts** as the bona fide set.  
+- **Two-stage TTS systems**:  
+  - Tacotron 2 + HiFi-GAN  
+  - Tacotron 2 + UnivNet  
+  - FastPitch + HiFi-GAN  
+  - FastPitch + UnivNet  
+- **End-to-End TTS system**:  
+  - VITS (multi-speaker, trained with YourTTS methodology)  
+- **Total spoofed utterances**: **1,110,100**  
+
+### 🔹 Final Dataset
+- **Total utterances**: **1,332,120**  
+- **Total duration**: ~**1,620 hours**  
+- **Balanced pairs** of bona fide and spoofed speech (same speakers, same scripts)  
+
+---
+
 ## 📂 Dataset Access
 Due to agreements with the voice actors, this dataset is only available for research purposes on a case-by-case basis. We provide:
 
@@ -59,8 +88,6 @@ We would also like to express our sincere gratitude to all the voice actors who 
 ---
 
 ## Citation
-
-If you use this dataset, please cite:
 
 ```bibtex
 @inproceedings{urai25_interspeech,
