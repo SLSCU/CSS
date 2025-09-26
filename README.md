@@ -56,5 +56,20 @@ This research was jointly supported by the PMU-C grant (C05F660049) and Amity Ac
 
 We would also like to express our sincere gratitude to all the voice actors who generously contributed their time and talent, making this project possible. The following individuals graciously provided their voices: สิรภพ ศรีเสาวนันท์, นิติ ธีรวิโรจน์, โสมฤทัย สอดส่อง, วริศรา เผือกผ่อง, พีรกานต์ สยาม, มธุรส นิ่มวิจิตร, ศิรสา ชลายนานนท์, จตุรงค์ ยามีภักดี, สุธีวัฒน์ ภิญโญ, นนที ถาวรพันธุ์, อนุชิต มณีชัย, ธรรมพร คำเคน, สิรภพ บาฬี, ชาณิช ชโลธรกรธวัช, ณัฐพงศ์ สุทธิไชย, อาทิตยา คำภีระ และ ปิยนุช ตันตระกูล, as well as others who chose to remain anonymous. Their contributions were essential to the success of this work.
 
+## 📚 Citation
+
+If you use this dataset, please cite:
+
+```bibtex
+@inproceedings{urai25_interspeech,
+  title     = {{Thai Speech Spoofing Detection Dataset with Variations in Speaking Styles}},
+  author    = {Ticho Urai and Pachara Boonsarngsuk and Ekapol Chuangsuwanich},
+  year      = {2025},
+  booktitle = {{Interspeech 2025}},
+  pages     = {5643--5647},
+  doi       = {10.21437/Interspeech.2025-1895},
+  issn      = {2958-1796},
+}
+
 <!-- markdownlint-enable -->
 
